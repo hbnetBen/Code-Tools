@@ -1,0 +1,7 @@
+This scripts lets you set time limits when users can send SMS or whatever its is you want to use it for.
+
+E.G
+
+Users are allowed to Send 4 SMS per day, 10 per Week and 15 per month. Got That?
+
+It works out of the box, Integrates with existing solution. just use users unique identifiers
