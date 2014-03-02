@@ -68,12 +68,14 @@ function crawl_page($url)
 
 
         	if (0 !== strpos($href, '/')){
-        		$href = "/".$href;
-        	}
+        		$completeurl = $url."/".$href;
+        	}else{
+                $completeurl = DOMAIN . $href;
+            }
 
+            //$completeurl = DOMAIN . $href;
 
-
-        	$completeurl = DOMAIN . $href;
+        	
 
         	$completeurl = trim(str_replace("./","/", $completeurl));
 
